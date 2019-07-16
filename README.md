@@ -19,7 +19,7 @@ Intel VT-x 또는 AMD AMD-v 활성화 및 지원 여부 확인
 VirtualBox(권장), Hyper-V
 
 ### 3. Chocolatey 설치 (package manager for Windows)
-[Chocolatey](https://chocolatey.org/)
+[choco](https://chocolatey.org/)
 
 - cmd.exe 
 > @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
