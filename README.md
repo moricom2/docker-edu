@@ -32,7 +32,7 @@ VirtualBox(권장), Hyper-V
 
 > choco install -y virtualbox virtualbox.extensionpack
 
-### 5. docker 컴포넌트 설치
+### 5. Docker 컴포넌트 설치
 [docker](https://www.docker.com/)
 
 > choco install -y docker docker-machine docker-compose
