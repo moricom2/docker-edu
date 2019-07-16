@@ -1,4 +1,4 @@
-교육용 도커 실습 환경(docker for Windows) 구성
+교육용 도커 실습 환경 설치
 https://github.com/moricom2/docker-edu
 =====================
 
