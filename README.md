@@ -11,10 +11,10 @@ Intel VT-x 또는 AMD AMD-v 활성화 및 지원 여부 확인
 다음과 같은 출력이 확인되어야 함  
 
 >> Hyper-V 요구 사항: 
->> &nbsp;&nbsp;&nbsp;&nbsp;VM 모니터 모드 확장: 예
->> &nbsp;&nbsp;&nbsp;&nbsp;펌웨어에 가상화 사용: 예
->> &nbsp;&nbsp;&nbsp;&nbsp;두 번째 수준 주소 변환: 예
->> &nbsp;&nbsp;&nbsp;&nbsp;데이터 실행 방지 사용 가능: 예
+>> &nbsp;&nbsp;&nbsp;&nbsp;VM 모니터 모드 확장: 예 
+>> &nbsp;&nbsp;&nbsp;&nbsp;펌웨어에 가상화 사용: 예 
+>> &nbsp;&nbsp;&nbsp;&nbsp;두 번째 수준 주소 변환: 예 
+>> &nbsp;&nbsp;&nbsp;&nbsp;데이터 실행 방지 사용 가능: 예 
 
 ### 2. 지원되는 하이파바이저
 VirtualBox(권장), Hyper-V
