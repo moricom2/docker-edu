@@ -17,8 +17,10 @@ Intel VT-x 또는 AMD AMD-v 활성화 및 지원 여부 확인
 >> &nbsp;&nbsp;&nbsp;&nbsp;Second Level Address Translation: Yes  
 >> &nbsp;&nbsp;&nbsp;&nbsp;Data Execution Prevention Available: Yes 
 
+
 ### 2. 지원되는 하이파바이저
 VirtualBox(권장), Hyper-V
+
 
 ### 3. Chocolatey 설치 (package manager for Windows)
 [choco](https://chocolatey.org/)
@@ -28,25 +30,30 @@ VirtualBox(권장), Hyper-V
 #### choco로 설치한 패키지 목록 보기
 > choco list --local-only
 
+
 ### 4. VirtualBox 설치
 [virtualbox](https://www.virtualbox.org/)
 - cmd.exe
 > choco install -y virtualbox virtualbox.extensionpack
+
 
 ### 5. Docker 컴포넌트 설치
 [docker](https://www.docker.com/)
 - cmd.exe
 > choco install -y docker docker-machine docker-compose
 
+
 ### (옵션) 6. Cmder 설치 (Portable console emulator for Windows)
 [cmder](https://cmder.net/)
 - cmd.exe
 > choco install -y cmder
 
+
 ### (옵션) 7. Virtual Studio Code 설치 (Text Editor)
 [vscode](https://code.visualstudio.com)
 - cmd.exe
 > choco install -y vscode
+
 
 ### 8. docker Server 생성
 [docker-machine](https://docs.docker.com/machine/reference/)
@@ -64,6 +71,7 @@ VirtualBox(권장), Hyper-V
 
 >> REM Run this command to configure your shell:  
 >> REM     @FOR /f "tokens=*" %i IN ('"C:\ProgramData\chocolatey\lib\docker-machine\bin\docker-machine.exe" env manager') DO @%i  
+
 
 ### 9. docker 클라이언트/서버 버전 확인
 - cmd.exe
