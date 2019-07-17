@@ -48,12 +48,11 @@ VirtualBox(권장), Hyper-V
 > choco install -y vscode
 
 ### final. docker Server 생성
-[vscode](https://code.visualstudio.com)
 - cmd.exe
-# vm 생성 (생성하는 vm의 이름은 manager)
+#### vm 생성 (생성하는 vm의 이름은 manager)
 > docker-machine create --driver virtualbox manager
-# vm 목록 확인
+#### vm 목록 확인
 > docker-machine ls
-# vm 시작/중지
+#### vm 시작/중지
 > docker-machine start/stop manager
 
