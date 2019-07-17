@@ -4,4 +4,4 @@ COPY . .
 RUN npm install ip
 ENTRYPOINT ["node", "index.js"]
 CMD ["Hello World!"]
-EXPOSE 8080/tcp
+EXPOSE 80/tcp
