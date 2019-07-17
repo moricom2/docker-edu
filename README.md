@@ -5,16 +5,16 @@ https://github.com/moricom2/docker-edu.git
 ### 1. 사전 요구 사항
 Intel VT-x 또는 AMD AMD-v 활성화 및 지원 여부 확인
 
-- cmd.exe 
+- cmd.exe (관리자 권한으로 실행)
 > systeminfo  
 
 다음과 같은 출력이 확인되어야 함  
 
->> Hyper-V Requirements:  
->> &nbsp;&nbsp;&nbsp;&nbsp;VM Monitor Mode Extensions: Yes  
->> &nbsp;&nbsp;&nbsp;&nbsp;Virtualization Enabled In Firmware: Yes  
->> &nbsp;&nbsp;&nbsp;&nbsp;Second Level Address Translation: Yes  
->> &nbsp;&nbsp;&nbsp;&nbsp;Data Execution Prevention Available: Yes  
+>> Hyper-V 요구 사항: 
+>> &nbsp;&nbsp;&nbsp;&nbsp;VM 모니터 모드 확장: 예
+>> &nbsp;&nbsp;&nbsp;&nbsp;펌웨어에 가상화 사용: 예
+>> &nbsp;&nbsp;&nbsp;&nbsp;두 번째 수준 주소 변환: 예
+>> &nbsp;&nbsp;&nbsp;&nbsp;데이터 실행 방지 사용 가능: 예
 
 ### 2. 지원되는 하이파바이저
 VirtualBox(권장), Hyper-V
@@ -47,7 +47,8 @@ VirtualBox(권장), Hyper-V
 - cmd.exe
 > choco install -y vscode
 
-### final. docker Server 생성
+### 8. docker Server 생성
+[docker-machine](https://docs.docker.com/machine/reference/)
 - cmd.exe
 #### vm 생성 (생성하는 vm의 이름은 manager)
 > docker-machine create --driver virtualbox manager
@@ -55,4 +56,12 @@ VirtualBox(권장), Hyper-V
 > docker-machine ls
 #### vm 시작/중지
 > docker-machine start/stop manager
+#### set up the environment for the Docker client
+> docker-machine env manager
+- REM Run this command to configure your shell:
+- REM     @FOR /f "tokens=*" %i IN ('"C:\ProgramData\chocolatey\lib\docker-machine\bin\docker-machine.exe" env manager') DO @%i
+
+### 9. docker 클라이언트/서버 버전 확인
+- cmd.exe
+> docker version
 
