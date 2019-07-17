@@ -1,5 +1,4 @@
 Windows 교육용 도커 실습 환경 설치
-https://github.com/moricom2/docker-edu.git
 =====================
 
 ### 1. 사전 요구 사항
@@ -67,4 +66,7 @@ VirtualBox(권장), Hyper-V
 ### 9. docker 클라이언트/서버 버전 확인
 - cmd.exe
 > docker version
+
+#### 소스코드 빌드 실습 링크 ####
+https://github.com/moricom2/hello-rest  
 
