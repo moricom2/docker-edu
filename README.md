@@ -68,12 +68,10 @@ VirtualBox(권장), Hyper-V
 > docker version
 
 
-## 실습용 코드## 
-=====================  
+## 실습용 코드 ## 
 https://github.com/moricom2/hello-rest  
 
 ## CI서버 ## 
-=====================  
 https://github.com/moricom2/jenkins  
 
 
