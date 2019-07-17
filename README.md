@@ -25,27 +25,35 @@ VirtualBox(권장), Hyper-V
 - cmd.exe 
 > @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
-- PowerShell.exe
-> Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-
 ### 4. VirtualBox 설치
 [virtualbox](https://www.virtualbox.org/)
-
+- cmd.exe
 > choco install -y virtualbox virtualbox.extensionpack
 
 ### 5. Docker 컴포넌트 설치
 [docker](https://www.docker.com/)
-
+- cmd.exe
 > choco install -y docker docker-machine docker-compose
 
 
 ### (옵션) 6. Cmder 설치 (Portable console emulator for Windows)
 [cmder](https://cmder.net/)
-
+- cmd.exe
 > choco install -y cmder
 
 
 ### (옵션) 7. Virtual Studio Code 설치 (Text Editor)
 [vscode](https://code.visualstudio.com)
-
+- cmd.exe
 > choco install -y vscode
+
+### final. docker Server 생성
+[vscode](https://code.visualstudio.com)
+- cmd.exe
+# vm 생성 (생성하는 vm의 이름은 manager)
+> docker-machine create --driver virtualbox manager
+# vm 목록 확인
+> docker-machine ls
+# vm 시작/중지
+> docker-machine start/stop manager
+
