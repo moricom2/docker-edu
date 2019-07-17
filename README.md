@@ -1,5 +1,5 @@
 Windows 교육용 도커 실습 환경 설치
-### https://github.com/moricom2/docker-edu.git ### 
+## https://github.com/moricom2/docker-edu.git ##
 =====================
 
 ### 1. 사전 요구 사항
