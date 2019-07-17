@@ -61,8 +61,8 @@ VirtualBox(권장), Hyper-V
 
 다음과 같은 출력라인 확인후 copy&paste
 
->> REM Run this command to configure your shell:
->> REM     @FOR /f "tokens=*" %i IN ('"C:\ProgramData\chocolatey\lib\docker-machine\bin\docker-machine.exe" env manager') DO @%i
+>> REM Run this command to configure your shell: 
+>> REM     @FOR /f "tokens=*" %i IN ('"C:\ProgramData\chocolatey\lib\docker-machine\bin\docker-machine.exe" env manager') DO @%i 
 
 ### 9. docker 클라이언트/서버 버전 확인
 - cmd.exe
