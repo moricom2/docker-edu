@@ -24,6 +24,8 @@ VirtualBox(권장), Hyper-V
 
 - cmd.exe 
 > @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+#### choco로 설치한 패키지 목록 보기
+> choco list --local-only
 
 ### 4. VirtualBox 설치
 [virtualbox](https://www.virtualbox.org/)
