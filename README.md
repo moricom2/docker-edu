@@ -68,11 +68,11 @@ VirtualBox(권장), Hyper-V
 > docker version
 
 
-소스코드 빌드 참조링크  
+## 실습용 코드## 
 =====================  
 https://github.com/moricom2/hello-rest  
 
-CI서버 생성 참조링크
+## CI서버 ## 
 =====================  
 https://github.com/moricom2/jenkins  
 
