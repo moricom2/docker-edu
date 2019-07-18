@@ -1,0 +1,6 @@
+version: "3"
+services:
+  nodejs:
+    image: moricom/nodejs-whoami
+  nettool:
+    image: moricom/nettool
