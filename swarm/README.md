@@ -4,7 +4,7 @@
 > exit  
 
 #### 클러스터링 - 워커 노드
-> docker-machine ssh worker01  
+> docker-machine ssh worker1  
 > docker swarm join ...  
 > exit  
 
