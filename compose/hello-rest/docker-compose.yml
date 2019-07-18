@@ -1,8 +1,0 @@
-version: "3"
-services:
-  members:
-    image: moricom/hello-rest
-  posts:
-    image: moricom/hello-rest
-    ports:
-      - "888:80"
