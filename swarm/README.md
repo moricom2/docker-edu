@@ -14,7 +14,7 @@
 #### 서비스 생성
 > docker service create -d -p 80:80 --name whoami moricom/nodejs-whoami  
 #### 서비스 목록/상세/테스팅
-> docker service ls
+> docker service ls  
 > docker service ps whoami  
 > curl http://192.168.99.100  
 #### 서비스 확장
