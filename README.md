@@ -41,7 +41,7 @@ VirtualBox(권장), Hyper-V
 ### 5. Docker 컴포넌트 설치
 [docker](https://www.docker.com/)
 - cmd.exe
-> choco install -y docker docker-machine docker-compose
+> choco install -y docker-cli docker-machine docker-compose
 
 
 ### (옵션) 6. Cmder 설치 (Portable console emulator for Windows)
