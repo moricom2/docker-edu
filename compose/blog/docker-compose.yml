@@ -8,7 +8,7 @@ services:
   wp:
     image: wordpress:latest
     ports:
-      - "88:80"
+      - "80:80"
     environment:
       - WORDPRESS_DB_HOST=db:3306
       - WORDPRESS_DB_PASSWORD=mysql
