@@ -91,5 +91,5 @@ https://github.com/moricom2/jenkins
 > VBoxManage modifyvm manager --memory 4096  
 > docker-machine start manager  
 ### (추가) SonarQube 컨테이너 실행 ###
-[SonarQube](https://hub.docker.com/_/sonarqube)  
+[SonarQube](https://hub.docker.com/_/sonarqube)
 > docker run -d --name sonarqube -p 9000:9000 sonarqube  
