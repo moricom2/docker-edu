@@ -60,7 +60,9 @@ VirtualBox(권장), Hyper-V
 [docker-machine](https://docs.docker.com/machine/reference/)
 - cmd.exe
 #### vm 생성 (생성하는 vm의 이름은 manager)
-> docker-machine create --driver virtualbox manager
+> docker-machine create --driver virtualbox manager  
+or  
+> docker-machine create --driver virtualbox --virtualbox-cpu-count "2" --virtualbox-memory "4096" manager  
 #### vm 목록 확인
 > docker-machine ls
 #### vm 시작/중지
