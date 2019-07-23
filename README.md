@@ -82,12 +82,12 @@ or
 
 
 ## 실습용 코드 ## 
-https://github.com/moricom2/hello-rest  
+https://github.com/moricom2/hello-rest.git  
 https://github.com/moricom2/egovframe-sample.git  
 
 
 ## CI서버 ## 
-https://github.com/moricom2/jenkins  
+https://github.com/moricom2/jenkins.git  
 
 
 ### (추가) 머신의 리소스 수정 ###
