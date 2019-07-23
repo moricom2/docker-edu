@@ -83,6 +83,7 @@ or
 
 ## 실습용 코드 ## 
 https://github.com/moricom2/hello-rest  
+https://github.com/moricom2/egovframe-sample.git  
 
 ## CI서버 ## 
 https://github.com/moricom2/jenkins  
