@@ -82,7 +82,10 @@ or
 
 
 ## 실습용 코드 ## 
+### docker-cli & Dockerfile로 스프링부트 이미지 빌드하기
 https://github.com/moricom2/hello-rest.git  
+
+### docker-maven-plugin으로 전자정부프레임워크 이미지 빌드하기
 https://github.com/moricom2/egovframe-sample.git  
 
 
