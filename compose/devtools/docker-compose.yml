@@ -1,0 +1,36 @@
+gitlab:
+  image: 'gitlab/gitlab-ce:latest'
+#  restart: always
+  hostname: 'gitlab.example.com'
+  environment:
+    GITLAB_OMNIBUS_CONFIG: |
+      external_url 'http://192.168.99.100'
+      # Add any other gitlab.rb configuration here, each on its own line
+  ports:
+    - '80:80'
+  volumes:
+    - '/data/devtools/gitlab/config:/etc/gitlab'
+    - '/data/devtools/gitlab/logs:/var/log/gitlab'
+    - '/data/devtools/gitlab/data:/var/opt/gitlab'    
+jenkins:
+  image: 'moricom/jenkins:latest'
+  user: root
+  ports:
+    - '8080:8080'
+  volumes:
+#    - '/data/devtools/jenkins/jenkins_home:/var/jenkins_home'
+    - '/var/run/docker.sock:/var/run/docker.sock'
+    - '/usr/local/bin/docker:/usr/bin/docker'
+sonarqube:
+  image: 'sonarqube:latest'
+  ports:
+    - '9000:9000'
+#  volumes:
+#    - '/data/devtools/sonarqube/conf:/opt/sonarqube/conf'
+#    - '/data/devtools/sonarqube/data:/opt/sonarqube/data'
+#    - '/data/devtools/sonarqube/logs:/opt/sonarqube/logs'
+#    - '/data/devtools/sonarqube/extensions:/opt/sonarqube/extensions'
+registry:
+  image: 'registry:2.0'
+  ports:
+    - '5000:5000'
