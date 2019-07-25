@@ -105,5 +105,5 @@ https://github.com/moricom2/jenkins.git
 
 ### 도커컨테이너 교육 실습동영상 CICD 부분 요약 2 ###
 #### hello-rest 어플리케이션 배포 자동화
-[![hello-cicid 2](https://i9.ytimg.com/vi/hpliqhWakKA/maxresdefault.jpg?sqp=CPyc5-kF&rs=AOn4CLCbZ0acRiVMGyx24XGOFUiibwzo3Q)](https://youtu.be/hpliqhWakKA)  
+[![hello-cicid 2](https://i9.ytimg.com/vi/hpliqhWakKA/mqdefault.jpg?sqp=CPyc5-kF&rs=AOn4CLCw2wE8UHBRe3541eFawrP7H7E7Ow&time=1564069590668)](https://youtu.be/hpliqhWakKA)  
 
