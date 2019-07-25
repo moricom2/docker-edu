@@ -97,7 +97,13 @@ https://github.com/moricom2/jenkins.git
 > docker-machine stop manager  
 > VBoxManage modifyvm manager --cpus 2  
 > VBoxManage modifyvm manager --memory 4096  
-> docker-machine start manager  
-### (추가) SonarQube 컨테이너 실행 ###
-[SonarQube](https://hub.docker.com/_/sonarqube)
-> docker run -d --name sonarqube -p 9000:9000 sonarqube  
+> docker-machine start manager 
+
+### 도커컨테이너 교육 실습동영상 CICD 부분 요약 1 ###
+#### docker-compose 로 cicid 환경 구축
+[![hello-cicid 1](https://i9.ytimg.com/vi/UEA3-v0r0uc/maxresdefault.jpg?sqp=CKSY5-kF&rs=AOn4CLDV5Yh5bKa96YmWXbb4EBkTPCDiRQ)](https://youtu.be/UEA3-v0r0uc)  
+
+### 도커컨테이너 교육 실습동영상 CICD 부분 요약 2 ###
+#### hello-rest 어플리케이션 배포 자동화
+[![hello-cicid 2](https://i9.ytimg.com/vi/hpliqhWakKA/maxresdefault.jpg?sqp=CPyc5-kF&rs=AOn4CLCbZ0acRiVMGyx24XGOFUiibwzo3Q)](https://youtu.be/hpliqhWakKA)  
+
