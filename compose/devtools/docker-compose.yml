@@ -8,10 +8,10 @@ gitlab:
       # Add any other gitlab.rb configuration here, each on its own line
   ports:
     - '80:80'
-  volumes:
-    - '/data/devtools/gitlab/config:/etc/gitlab'
-    - '/data/devtools/gitlab/logs:/var/log/gitlab'
-    - '/data/devtools/gitlab/data:/var/opt/gitlab'    
+#  volumes:
+#    - '/data/devtools/gitlab/config:/etc/gitlab'
+#    - '/data/devtools/gitlab/logs:/var/log/gitlab'
+#    - '/data/devtools/gitlab/data:/var/opt/gitlab'    
 jenkins:
   image: 'moricom/jenkins:latest'
   user: root
