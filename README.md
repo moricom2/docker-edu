@@ -101,7 +101,7 @@ https://github.com/moricom2/jenkins.git
 
 ### 도커컨테이너 교육 실습동영상 CICD 부분 요약 1 ###
 #### docker-compose 로 cicid 환경 구축
-[![hello-cicid 1](https://i9.ytimg.com/vi/UEA3-v0r0uc/maxresdefault.jpg?sqp=CKSY5-kF&rs=AOn4CLDV5Yh5bKa96YmWXbb4EBkTPCDiRQ)](https://youtu.be/UEA3-v0r0uc)  
+[![hello-cicid 1](https://i9.ytimg.com/vi/UEA3-v0r0uc/mq1.jpg?sqp=CKif5-kF&rs=AOn4CLDvGpPWgjaV_9CPSPL_ZcV7hJhsJQ)](https://youtu.be/UEA3-v0r0uc)  
 
 ### 도커컨테이너 교육 실습동영상 CICD 부분 요약 2 ###
 #### hello-rest 어플리케이션 배포 자동화
