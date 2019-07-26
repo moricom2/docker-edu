@@ -99,9 +99,9 @@ https://github.com/moricom2/jenkins.git
 > VBoxManage modifyvm manager --memory 4096  
 > docker-machine start manager 
 
-### 도커컨테이너 교육 실습동영상 CICD 부분 요약 1 ###
-[![hello-cicid 1](https://i9.ytimg.com/vi/UEA3-v0r0uc/mq1.jpg?sqp=CKif5-kF&rs=AOn4CLDvGpPWgjaV_9CPSPL_ZcV7hJhsJQ)](https://youtu.be/UEA3-v0r0uc)  
+#### 도커컨테이너 교육 실습동영상 CICD 부분 요약 1 ###
+[hello-cicid 1](https://youtu.be/UEA3-v0r0uc)  
 
-### 도커컨테이너 교육 실습동영상 CICD 부분 요약 2 ###
-[![hello-cicid 2](https://i9.ytimg.com/vi/hpliqhWakKA/mqdefault.jpg?sqp=CPyc5-kF&rs=AOn4CLCw2wE8UHBRe3541eFawrP7H7E7Ow&time=1564069590668)](https://youtu.be/hpliqhWakKA)  
+#### 도커컨테이너 교육 실습동영상 CICD 부분 요약 2 ###
+[hello-cicid 2](https://youtu.be/hpliqhWakKA)  
 
