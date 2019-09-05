@@ -6,5 +6,3 @@ RUN apt-get update && apt-get install -y \
     openssh-server
 RUN mkdir -p ~/.ssh
 RUN echo " StrictHostKeyChecking no" >> ~/.ssh/config
-ADD jkeypair.pem /jkeypair.pem
-RUN chmod -R 700 /jkeypair.pem
